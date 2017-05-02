@@ -1,0 +1,313 @@
+/* --- Main header Menu bar / Portion Menu ---*/
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid #dddddd;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 1.5rem;
+}
+.menu p {
+  display: inline-block;
+  font-weight: bold;
+}
+.menu span{
+  font-weight: 100;
+  color: #bbbbbb;
+}
+.navigator li {
+  display: inline-block;
+}
+.navigator li a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #7f7f7f;
+  transition: all .2s linear 0s;
+}
+.navigator li a:hover {
+  color: #9a9ae9;
+  letter-spacing: .2rem;
+}
+
+
+/*--- Jumbotron - Value offer block ---*/
+
+
+.portion-jumbo {
+  background-color: #dddddd;
+  width: 100%;
+  display: relative;
+  margin-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+
+}
+.portion-image {
+ /* width: 100%;*/
+  width: calc(60% + 24px);
+  display: inline;
+}
+
+.portion-image img {
+    width: 90%;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+.portion1-text {
+  font-family: 'Roboto', sans-serif;
+  width: 23rem;
+  color: #4f4f4f;
+
+}
+.portion1-text h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.coolyo {
+  color: #989ae9;
+}
+.portion1-text p {
+  font-size: 1.3rem;
+  margin-top: 1.5rem
+}
+.portion1-text .portion1-button {
+  padding: .5rem 0;
+  background-color: #7f7f7f;
+  display: inline-block;
+  margin-top: 2rem;
+  width: 23rem;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all .2s linear 0s;
+  box-shadow: 0 3px 9px rgba(0,0,0,.4);
+
+}
+.portion1-text .portion1-button:hover {
+  color: #dddddd;
+  background-color: #989ae9;
+}
+
+
+/*--- Portion 2 ---*/
+
+.portion {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portion-lock {
+  border-right: 1px solid #dddddd;
+  color: #7f7f7f;
+  width: calc(60% + 3rem);
+  margin-left: 1.5rem;
+}
+
+
+.portion-lock img {
+  width: 60vw;
+  height: auto;
+  margin-top: 2rem;
+  box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+.portion-lock video {
+  box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+.section-title{
+   color: #4f4f4f;
+   font-size: 2rem;
+   font-family: 'Roboto', sans-serif;
+   margin-top: 2rem;
+   margin-bottom: 1.5rem;
+}
+h2.section-title.bot {
+    margin-bottom: 0;
+}
+
+.site-descripts {
+  font-size: .9rem;
+  color: #7f7f7f;
+  margin-bottom: 1rem;
+  margin-top: .5rem;
+  line-height: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*--- Portion 2 side bar with items in colums ---*/
+
+
+.portion2-menu {
+  display: flex;
+  flex-direction: column;
+}
+.portion2-menu-block {
+  width: 26.437rem;
+  height: 12rem;
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.menu-item-photo {
+  width: 35%;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+.like h5, .like p{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.like .menu-heading {
+  font-family: 'Roboto', sans-serif;
+  color: #4f4f4f;
+  font-size: 1.4rem;
+  margin-top: 20%
+}
+.like .site-descripts {
+  font-family: 'Open Sans', sans-serif;
+}
+.like .read-more-link {
+  display: inline-block;
+  margin-left: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #9a9ae9;
+  transition: all .2s linear 0s;
+}
+.like .read-more-link:hover {
+  letter-spacing: .2rem;
+}
+.add-tops {
+  margin-top: 0;
+}
+
+.portion2-menu-block.gray.extends {
+    width: 28.5rem;
+}
+
+
+/*--- Portion #3 code ---*/
+
+
+.portion3 {
+  background-color: #dddddd;
+}
+.portion3 h2 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.portion3-flexbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.portion3-block {
+  width: 22.25rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 9px rgba(0,0,0,.4);
+}
+
+
+
+.portion3-block img {
+  height: 11.375rem;
+  width: auto;
+}
+.learn-describe {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.3rem;
+}
+.portion3-heading {
+  font-size: 1.5rem;
+  color: #4f4f4f;
+  padding-top: .5rem;
+}
+.portion3-mini-heading  {
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.cussing{
+  text-align: center;
+  color: #7f7f7f;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.dismiss {
+  border: none;
+  width: 60%;
+  margin-right: 1rem;
+}
+
+/*-------footer  ------*/
+
+
+.disclaimer {
+  width: 100%;
+  height: 4rem;
+  background-color: #dddddd;
+  color: #7f7f7f;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+}
+.no-descripts{
+  color: #7f7f7f;
+  display: inline-block;
+  display: center;
+  flex-grow: 1;
+  padding-left: 1.5rem;
+   }
+.disclaimer a {
+  text-align: right;
+  text-decoration: none;
+  margin-right: .8rem;
+  background-color: #dddddd;
+  }
+  .crazy .term {
+    transition: all .2s linear 0s;
+  }
+  .crazy .term:hover {
+    color: #9a9ae9;
+  }
